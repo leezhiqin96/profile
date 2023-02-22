@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Source+Sans+Pro:wght@200&display=swap');
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+body {
+  background-color:azure;
+  font-family: 'Roboto Mono', monospace;
+  color:rgb(34, 33, 31);
+  font-size: 16px;
+  line-height: normal;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color:chocolate;
+}
+
+a:hover {
+  color:black;
+}
+
+#head-container {
+  background-color:rgb(244, 239, 219);
+  margin: 20px auto;
+  width: 800px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+#title-card {
+  border-top: 2px;
+  border-bottom: 2px;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  margin: 15px auto;
+  width: 500px;
+}
+
+#body-container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.info-card {
+  margin:0;
+}
+
+.info-card-split {
+  background-color:rgb(244, 239, 219);
+  padding: 10px;
+  margin-top:20px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow:0 10px 30px rgba(0,0,0,.2);
+  width: 300px;
+  height:min-content;
+}
+
+.body-card {
+  background-color:rgb(244, 239, 219);
+  margin-left: 20px;
+  width: 500px;
+  height:max-content;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.display-inline {
+  display:flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+
+/* button */
+.button-23 {
+  font-family: 'Roboto Mono', monospace;
+  background-color:transparent;
+  border: 1px solid chocolate;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: chocolate;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0 auto;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button-23:active {
+  color: black;
+  border-color: black;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+/* Button */
+
+
+/* div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+} */
